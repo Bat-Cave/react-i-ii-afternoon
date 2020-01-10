@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #222222;
+}
+
+.app-container{
+  background: #222222;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  height: calc(100vh - 100px);
+}
+
+.header-container{
+  background: #34a5da;
+  color: #232224;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 60px;
+}
+
+.display-container{
+  width: 100%;
+  background: white;
+  height: 400px;
+  padding: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top-container{
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.info-container{
+  width: 100%;
+}
+
+.name{
+  font-weight: 790;
+  font-size: 24px;
+  border-bottom: 1.5px solid #34a5da;
+}
+
+.index{
+  align-self: flex-start;
+  margin-right: -36px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 40px;
+  height: 100px;
+}
+
+.movies{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px 40px;
+  height: 100px;
+
+}
+
+.item{
+  color: #232224;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.item-new{
+  display: inline-block;
+  color: #232224;
+  text-decoration: none;
+  font-weight: 700;
+  min-width: 100px;
+}
+
+.controller-container{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.black-diamond{
+  background: #34a5da;
+  color: white;
+  border-radius: 10px;
+  padding: 4px 12px;
+  margin: 0 8px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 40px;
+  background: white;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.none{
+  display: none;
+}
+
+.add-movies{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  height: 22px;
+  width: 250px;
+  margin: 4px;
+}
+
+
+a{
+  color: #232224;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+button{
+  background: transparent;
+  color: white;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+p{
+  display: inline-block;
+  height: auto;
+  font-weight: 500;
+  margin: 0;
+}
